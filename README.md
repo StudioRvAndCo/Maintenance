@@ -1,6 +1,4 @@
 # Maintenance
-Page de maintenance du site web [rvandco.fr](https://rvandco.fr).
+Maintenance page of [rvandco.fr](https://rvandco.fr) website.
 
-## Langages
-* HTML 5
-* CSS 3
+![Preview](assets/img/preview.jpg)
