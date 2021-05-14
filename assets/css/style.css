@@ -1,20 +1,39 @@
 * {
-  user-select: none;
+  margin: 0;
+  padding: 0;
+  user-select: unset;
 }
 
-h1, h2, h3, h4, h5, h6 {
+body {
+  background-color: #222931;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  backdrop-filter: blur(5px);
+  height: 88vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 6vh;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  padding-top: 60px;
+  font-size: 3em;
 }
 
 p {
+  font-size: 1.3em;
   line-height: 1.55;
-  color: lightgray;
-  font-size: 400;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  padding-top: 18px;
 }
 
-p:last-child {
-  user-select: text;
+p:first-of-type {
+  padding-top: 22px;
 }
 
 a {
@@ -22,153 +41,16 @@ a {
   color: white;
 }
 
-a:hover {
-  opacity: 0.7;
-  text-decoration: none;
-  color: white;
+svg {
+  margin: 40px 14px 0;
+  transition: transform .2s;
 }
 
-h1 {
-  font-size: 62px;
+svg:hover {
+  transform: scale(1.3);
 }
 
-
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-.hero {
-  display: table;
-  position: relative;
-  background-image: url(../img/background.jpg);
-  background-size: cover;
-  background-color: #1F2C34;
-  background-position: top;
-  padding: 10vh 0;
-  color: #fff;
-  width: 100%;
-  height: 100vh;
-}
-
-.hero .container {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-}
-
-.hero-brand {
-  margin-bottom: 75px;
-  display: inline-block;
-}
-
-.hero-brand:hover {
-  opacity: .75;
-}
-
-.tagline {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-  font-size: 26px;
-  margin: 45px 0 75px 0;
-  color: #fff;
-}
-
-/* ==================================================
-  Icon
-  ================================================== */
-.fa {
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 14px 10px;
-  background: none;
-  color: white;
-}
-
-.fa:hover {
-  opacity: 0.7;
-  text-decoration: none;
-  color: white;
-}
-
-/* ==================================================
-  Responsive Styling
-  ================================================== */
-@media (max-width: 61.9em) {
-  section,
-  .block,
-  .cta {
-    padding: 35px 0;
-  }
-  .features {
-    padding-bottom: 5px;
-  }
-  p,
-  .block p {
-    margin: 0;
-  }
-  .hero-brand {
-    margin-bottom: 35px;
-  }
-  .tagline {
-    margin: 35px 0;
-  }
-  h1 {
-    font-size: 32px;
-    margin: 0;
-  }
-  h2,
-  .tagline {
-    font-size: 24px;
-  }
-  h2 {
-    margin-bottom: 25px;
-  }
-  h3 {
-    font-size: 14px;
-  }
-  .hero {
-    padding: 75px 0;
-  }
-  .stats-col {
-    margin-bottom: 25px;
-  }
-  .block {
-    height: auto;
-  }
-  .feature-col {
-    padding-bottom: 30px;
-  }
-  .portfolio-grid .card h3.card-title {
-    font-size: 18px !important;
-  }
-  .portfolio-grid .card .card-text {
-    font-size: 13px;
-  }
-  .team .team-over {
-    padding-top: 20px;
-  }
-  .team .card .social-nav {
-    margin-bottom: 15px;
-    padding: 0;
-  }
-  .site-footer .social-nav {
-    margin-bottom: 35px;
-  }
-  .site-footer .list-inline {
-    text-align: center;
-    padding-bottom: 15px;
-  }
-  .site-footer .list-inline li {
-    display: inline-block;
-  }
-}
-
-@media (max-width: 767px) {
-  .block {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+p:last-of-type {
+  padding: 10px 0 20px;
+  font-size: 1em;
 }
