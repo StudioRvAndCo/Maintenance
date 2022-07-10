@@ -68,6 +68,16 @@ body {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   text-align: center;
   color: white;
+  user-select: none;
+
+  img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    pointer-events: none;
+  }
 
   h1 {
     padding-top: 60px;
