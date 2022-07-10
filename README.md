@@ -51,7 +51,7 @@
 Maintenance page of the Rv & Co association website with links to the different social networks.
 
 <div align="center"> 
-  <img src="src/assets/preview.jpg" alt="Maintenance page screenshot" />
+  <img src="src/assets/preview.webp" alt="Maintenance page screenshot" />
 </div>
 
 ### Features
@@ -118,8 +118,8 @@ A new `dist` folder will appear containing the entire compiled website.
 
 - [x] Add logo, texts and links
 - [x] Responsive design
-- [ ] Reduce build size
-- [ ] SVG background
+- [x] Reduce build size
+- [x] Gradient background
 - [ ] Add translations
 
 <p align="right">(<a href="#top">back to top</a>)</p>

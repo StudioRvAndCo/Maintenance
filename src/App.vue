@@ -54,21 +54,35 @@ export default {
 }
 
 body {
-  background-color: #222931;
-  background-image: url(@/assets/background.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  backdrop-filter: blur(5px);
-  height: 88vh;
+  background: rgb(69, 60, 54);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(69, 60, 54, 1) 0%,
+    rgba(31, 38, 45, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(69, 60, 54, 1) 0%,
+    rgba(31, 38, 45, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(69, 60, 54, 1) 0%,
+    rgba(31, 38, 45, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#453c36",endColorstr="#1f262d",GradientType=1);
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 6vh;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   text-align: center;
   color: white;
   user-select: none;
+  overflow: hidden;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 12px;
+  padding: 0 16px;
 
   img {
     -webkit-user-drag: none;
