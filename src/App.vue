@@ -3,12 +3,10 @@
     <img alt="Logo RV & Co" src="@/assets/logo.png" />
     <h1>Studio Rv & Co</h1>
     <p>
-      Le Studio Rv & Co est un regroupement d'amis passionnés par le monde du
-      cinéma.<br />
-      Ensemble, nous produisons du début à la fin des courts-métrages ou des
-      séries amateurs sur des thèmes variés qui nous plaisent.
+      {{ $t("text.1") }}<br />
+      {{ $t("text.2") }}
     </p>
-    <p>Le site web sera prochainement disponible.</p>
+    <p>{{ $t("available-soon") }}</p>
     <a href="https://www.youtube.com/channel/UCbTaxj24z8viOFR6NXMKurQ">
       <svg height="30" viewBox="0 0 160 110">
         <path
