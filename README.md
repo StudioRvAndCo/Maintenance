@@ -8,8 +8,9 @@
 
 <h3 align="center">Maintenance</h3>
 
-![Project license](https://img.shields.io/github/license/StudioRvAndCo/Maintenance?label=Licence)&nbsp;
+![Project version](https://img.shields.io/github/package-json/v/StudioRvAndCo/Maintenance?label=Version)
 ![Website size](https://img.shields.io/badge/Build%20size-1.4%20MB-blue)&nbsp;
+![Project license](https://img.shields.io/github/license/StudioRvAndCo/Maintenance?label=Licence)&nbsp;
 ![Last commit](https://img.shields.io/github/last-commit/Chartreuse-Gaming/Maintenance?label=Last%20commit)
 
 
